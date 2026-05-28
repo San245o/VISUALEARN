@@ -1,6 +1,6 @@
 # VISUALEARN (VisualEarn)
 
-Full-stack app that generates short Manim animations from a text prompt.
+Full-stack app that generates short Manim animations from a text prompt meant for engineering students who cant visualise maths concepts from just vague textbook definitions. Manim library helps visualising such concepts, generates a video which is available to the user.
 
 - `backend/`: FastAPI API that calls Gemini (via `google-genai`) to generate Manim code, renders it with Manim, then serves the resulting `.mp4`.
 - `frontend/`: Next.js UI for entering prompts, selecting a model, and previewing the generated video.
