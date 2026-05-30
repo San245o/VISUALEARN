@@ -4,4 +4,7 @@ python-dotenv
 pydantic
 manim
 google-genai
-pytest
+langgraph
+supabase
+PyPDF2
+langchain-text-splitters
